@@ -1,14 +1,26 @@
 {
   "basics": {
     "name": "Willy Chung",
-    "label": "Engineernig Graduate",
+    "label": "PhD Candidate at Meta, FAIR & Sorbonne Université, ISIR",
     "image": "",
-    "email": "willy.chung75@gmail.com",
-    "phone": "(852) 9198-0029",
+    "email": "willychung@meta.com",
+    "phone": "",
     "linkedin": "https://linkedin.com/in/willyhcchung",
-    "summary": "A French-born Engineering graduate interested in natural language processing and AI for good, currently residing in Hong Kong."
+    "summary": "2nd year PhD Candidate at Sorbonne Université (ISIR, MLIA) in collaboration with Meta (FAIR)), working mainly on planning using world modeling and multimodal learning."
   },
   "work": [
+    {
+      "name": "Meta, Fundamental Artificial Intelligence Research (FAIR)",
+      "position": "PhD Candidate - Wearable Agents Team",
+      "url": "https://ai.meta.com/research/",
+      "startDate": "2024-11-25",
+      "endDate": "",
+      "summary": "Research on world modeling, multimodal learning and planning for wearable AI systems.",
+      "highlights": [
+        "World modeling and procedural planning",
+        "Vision-language multimodal learning"
+      ]
+    },
     {
       "name": "Hong Kong University of Science and Technology",
       "position": "Teaching Assistant",
@@ -22,15 +34,31 @@
       ]
     }
   ],
-  "volunteer": [{"position":"Secondary reviewer for EMNLP 2022",
-                 "organization":"EMNLP",
-                 "startDate":"2022-09-01",
-                 "endDate":"2022-09-02"}, 
-                {"position":"Elected Secretary General of the Astronomy Student Association",
-                 "organization":"CosmiCS",
-                 "startDate":"2020-10-01",
-                 "endDate":"2021-07-31"}],
+  "volunteer": [
+    {
+      "position": "Reviewer for EMNLP, CVPR, ICLR",
+      "organization": "--",
+      "startDate": "--",
+      "endDate": "--"
+    },
+    {
+      "position": "Student Secretary General of the Astronomy Student Association",
+      "organization": "CosmiCS",
+      "startDate": "2020-10-01",
+      "endDate": "2021-07-31"
+    }
+  ],
   "education": [
+    {
+      "institution": "Sorbonne Université, ISIR (MLIA Team), Paris, France",
+      "url": "https://www.isir.upmc.fr/teams/mlia/?lang=en",
+      "area": "World Modeling, Multimodal Learning, Planning",
+      "studyType": "PhD in Artificial Intelligence",
+      "startDate": "2024-11-25",
+      "endDate": "",
+      "score": "",
+      "courses": []
+    },
     {
       "institution": "Hong Kong University of Science and Technology, Hong Kong",
       "url": "https://hkust.edu.hk/",
@@ -40,8 +68,8 @@
       "endDate": "2023-07-29",
       "score": "",
       "courses": [
-        "Advanced Deep Learning Architecture", 
-        "Statistical Learning for Text and Graph Data", 
+        "Advanced Deep Learning Architecture",
+        "Statistical Learning for Text and Graph Data",
         "Advanced Topics in AI and Healthcare"
       ]
     },
@@ -55,11 +83,11 @@
       "score": "3.97/4.33",
       "courses": [
         "Convex Optimization",
-        "Model Representation and Analysis", 
-        "Algorithmic & Complexity", 
-        "Massive Data Management", 
-        "Parallel and Distributed Programming", 
-        "Automation", 
+        "Model Representation and Analysis",
+        "Algorithmic & Complexity",
+        "Massive Data Management",
+        "Parallel and Distributed Programming",
+        "Automation",
         "High Performance Computing"
       ]
     }
@@ -80,14 +108,20 @@
   ],
   "certificates": [],
   "publications": [],
-  "skills": [{"name":"Advanced",
-              "items":["Python", "SQL", "Dialogflow"],
-              "keywords":["Python", "SQL", "Dialogflow"],
-              "level":"Advanced"},
-             {"name":"Intermediate",
-              "items":["R", "Power BI", "MATLAB", "Docker", "MongoDB", "Github", "Microsoft Azure", "Google Cloud", "Neo4j", "SolidWorks"],
-              "keywords":["R", "Power BI", "MATLAB", "Docker", "MongoDB", "Github", "Microsoft Azure", "Google Cloud", "Neo4j", "SolidWorks"],
-              "level":"Intermediate"}],
+  "skills": [
+    {
+      "name": "Advanced",
+      "items": ["Python", "SQL", "Dialogflow"],
+      "keywords": ["Python", "SQL", "Dialogflow"],
+      "level": "Advanced"
+    },
+    {
+      "name": "Intermediate",
+      "items": ["R", "Power BI", "MATLAB", "Docker", "MongoDB", "Github", "Microsoft Azure", "Google Cloud", "Neo4j", "SolidWorks"],
+      "keywords": ["R", "Power BI", "MATLAB", "Docker", "MongoDB", "Github", "Microsoft Azure", "Google Cloud", "Neo4j", "SolidWorks"],
+      "level": "Intermediate"
+    }
+  ],
   "languages": [
     {
       "language": "French",
@@ -106,26 +140,38 @@
       "fluency": "Intermediate"
     }
   ],
-  "interests": [{"name":"Basketball"}, 
-                {"name":"Astronomy"}, 
-                {"name":"Piano"}],
+  "interests": [
+    {"name": "Basketball"},
+    {"name": "Astronomy"},
+    {"name": "Piano"}
+  ],
   "references": [],
-  "projects": [{"name":"Virtual Well-being Companion with Emotion Detection Capability for Elderly People",
-                "startDate":"2022-06-01",
-                "endDate":"",
-                "summary":"In order to assist elderly to do daily check-ups and chit-chat in community care, we developped an anthropomorphic cantonese virtual chatbot, proposing daily activities like exercise, yoga and music. The virtual assistant is able to adapt its behaviour based on the emotion of the elderly individual, detected through speech."},
-               {"name":"Grace, Humanoid Robot as Occupational Therapist for Hospitals",
-                "startDate":"2022-02-01",
-                "endDate":"",
-                "summary":"From the humanoid robot hardware provided by Hanson Robotics (video), we adapted her behaviour to take the role of a nurse in hospital for patient's daily check-ups. For this purpose, we have to incorporate several modules (ASR, TTS, Dialogue manager) and work along with multiple teams (Robotics, Human-Computer Interaction, Computer Vision).",
-                "url":"https://www.youtube.com/watch?v=V2p99YPEPZk"},
-               {"name":"Care Navigation Portal for Elderly and Caregivers in Hong Kong",
-                "startDate":"2021-12-01",
-                "endDate":"",
-                "summary":"In collaboration with local NGOs, HKSYU and the Hong Kong Jockey Club, we developed a care navigation portal to assist caregivers and elderly in Hong Kong to easily find various services (financial support, residential care, physical assistance, etc...) through the web portal and an interactive cantonese chatbot.",
-                "url":"portal.jcsmart.org/"},
-               {"name":"AI-aided Asteroseismology: reproducing gravitational waves with machine learning",
-                "startDate":"2020-09-01",
-                "endDate":"2021-04-01",
-                "summary":"In this academic projects, we explored signal generation using RNN, LSTM and GAN in the context of gravitational waves, as such data is extremely difficult to collect practically."}]
+  "projects": [
+    {
+      "name": "Virtual Well-being Companion with Emotion Detection Capability for Elderly People",
+      "startDate": "2022-06-01",
+      "endDate": "",
+      "summary": "In order to assist elderly to do daily check-ups and chit-chat in community care, we developped an anthropomorphic cantonese virtual chatbot, proposing daily activities like exercise, yoga and music. The virtual assistant is able to adapt its behaviour based on the emotion of the elderly individual, detected through speech."
+    },
+    {
+      "name": "Grace, Humanoid Robot as Occupational Therapist for Hospitals",
+      "startDate": "2022-02-01",
+      "endDate": "",
+      "summary": "From the humanoid robot hardware provided by Hanson Robotics (video), we adapted her behaviour to take the role of a nurse in hospital for patient's daily check-ups. For this purpose, we have to incorporate several modules (ASR, TTS, Dialogue manager) and work along with multiple teams (Robotics, Human-Computer Interaction, Computer Vision).",
+      "url": "https://www.youtube.com/watch?v=V2p99YPEPZk"
+    },
+    {
+      "name": "Care Navigation Portal for Elderly and Caregivers in Hong Kong",
+      "startDate": "2021-12-01",
+      "endDate": "",
+      "summary": "In collaboration with local NGOs, HKSYU and the Hong Kong Jockey Club, we developed a care navigation portal to assist caregivers and elderly in Hong Kong to easily find various services (financial support, residential care, physical assistance, etc...) through the web portal and an interactive cantonese chatbot.",
+      "url": "portal.jcsmart.org/"
+    },
+    {
+      "name": "AI-aided Asteroseismology: reproducing gravitational waves with machine learning",
+      "startDate": "2020-09-01",
+      "endDate": "2021-04-01",
+      "summary": "In this academic projects, we explored signal generation using RNN, LSTM and GAN in the context of gravitational waves, as such data is extremely difficult to collect practically."
+    }
+  ]
 }

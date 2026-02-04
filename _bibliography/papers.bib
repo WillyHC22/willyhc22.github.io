@@ -127,7 +127,6 @@
     arxiv={2309.10413},
     abstract="Grounding dialogue response generation on external knowledge is proposed to produce informative and engaging responses. However, current knowledge-grounded dialogue (KGD) systems often fail to align the generated responses with human-preferred qualities due to several issues like hallucination and the lack of coherence. Upon analyzing multiple language model generations, we observe the presence of alternative generated responses within a single decoding process. These alternative responses are more faithful and exhibit a comparable or higher level of relevance to prior conversational turns compared to the optimal responses prioritized by the decoding processes. To address these challenges and driven by these observations, we propose Polished \& Informed Candidate Scoring (PICK), a generation re-scoring framework that empowers models to generate faithful and relevant responses without requiring additional labeled data or model tuning. Through comprehensive automatic and human evaluations, we demonstrate the effectiveness of PICK in generating responses that are more faithful while keeping them relevant to the dialogue history. Furthermore, PICK consistently improves the system's performance with both oracle and retrieved knowledge in all decoding strategies.",
     pdf={https://aclanthology.org/2023.ijcnlp-main.63.pdf},
-    selected = {true},
     code = {https://github.com/bryanwilie/pick},
 }
 
@@ -195,4 +194,28 @@
   code         = {https://github.com/HLTCHKUST/elderly_ser},
   bibtex_show  = {true},
   selected     = {true},
+}
+
+@article{chen2025vl,
+  title={VL-JEPA: Joint Embedding Predictive Architecture for Vision-Language},
+  author={Chen, Delong and Shukor, Mustafa and Moutakanni, Theo and Chung, Willy and Yu, Jade and Kasarla, Tejaswi and Bolourchi, Allen and LeCun, Yann and Fung, Pascale},
+  journal={arXiv preprint arXiv:2512.10942},
+  year={2025},
+  arxiv={2512.10942},
+  abstract="We introduce VL-JEPA, a vision-language model built on a Joint Embedding Predictive Architecture (JEPA). Instead of autoregressively generating tokens as in classical VLMs, VL-JEPA predicts continuous embeddings of the target texts. By learning in an abstract representation space, the model focuses on task-relevant semantics while abstracting away surface-level linguistic variability. In a strictly controlled comparison against standard token-space VLM training with the same vision encoder and training data, VL-JEPA achieves stronger performance while having 50% fewer trainable parameters. At inference time, a lightweight text decoder is invoked only when needed to translate VL-JEPA predicted embeddings into text. We show that VL-JEPA natively supports selective decoding that reduces the number of decoding operations by 2.85x while maintaining similar performance compared to non-adaptive uniform decoding. Beyond generation, the VL-JEPA's embedding space naturally supports open-vocabulary classification, text-to-video retrieval, and discriminative VQA without any architecture modification. On eight video classification and eight video retrieval datasets, the average performance VL-JEPA surpasses that of CLIP, SigLIP2, and Perception Encoder. At the same time, the model achieves comparable performance as classical VLMs (InstructBLIP, QwenVL) on four VQA datasets: GQA, TallyQA, POPE and POPEv2, despite only having 1.6B parameters.",
+  pdf={https://arxiv.org/pdf/2512.10942},
+  bibtex_show={true},
+  selected={true},
+}
+
+@article{chen2025worldprediction,
+  title={WorldPrediction: A Benchmark for High-level World Modeling and Long-horizon Procedural Planning},
+  author={Chen, Delong and Chung, Willy and Bang, Yejin and Ji, Ziwei and Fung, Pascale},
+  journal={arXiv preprint arXiv:2506.04363},
+  year={2025},
+  arxiv={2506.04363},
+  abstract="Humans are known to have an internal "world model" that enables us to carry out action planning based on world states. AI agents need to have such a world model for action planning as well. It is not clear how current AI models, especially generative models, are able to learn such world models and carry out procedural planning in diverse environments. We introduce WorldPrediction, a video-based benchmark for evaluating world modeling and procedural planning capabilities of different AI models. In contrast to prior benchmarks that focus primarily on low-level world modeling and robotic motion planning, WorldPrediction is the first benchmark that emphasizes actions with temporal and semantic abstraction. Given initial and final world states, the task is to distinguish the proper action (WorldPrediction-WM) or the properly ordered sequence of actions (WorldPrediction-PP) from a set of counterfactual distractors. This discriminative task setup enable us to evaluate different types of world models and planners and realize a thorough comparison across different hypothesis. The benchmark represents states and actions using visual observations. In order to prevent models from exploiting low-level continuity cues in background scenes, we provide "action equivalents" - identical actions observed in different contexts - as candidates for selection. This benchmark is grounded in a formal framework of partially observable semi-MDP, ensuring better reliability and robustness of the evaluation. We conduct extensive human filtering and validation on our benchmark and show that current frontier models barely achieve 57% accuracy on WorldPrediction-WM and 38% on WorldPrediction-PP whereas humans are able to solve both tasks perfectly.",
+  pdf={https://arxiv.org/pdf/2506.04363},
+  bibtex_show={true},
+  selected={true},
 }
